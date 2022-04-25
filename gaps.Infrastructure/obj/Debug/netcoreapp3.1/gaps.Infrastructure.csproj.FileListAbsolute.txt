@@ -1,0 +1,15 @@
+C:\Users\mendi\source\repos\gaps\gaps.Infrastructure\obj\Debug\netcoreapp3.1\gaps.Infrastructure.csprojAssemblyReference.cache
+C:\Users\mendi\source\repos\gaps\gaps.Infrastructure\obj\Debug\netcoreapp3.1\gaps.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\mendi\source\repos\gaps\gaps.Infrastructure\obj\Debug\netcoreapp3.1\gaps.Infrastructure.AssemblyInfo.cs
+C:\Users\mendi\source\repos\gaps\gaps.Infrastructure\obj\Debug\netcoreapp3.1\gaps.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\mendi\source\repos\gaps\gaps.Infrastructure\bin\Debug\netcoreapp3.1\gaps.Infrastructure.deps.json
+C:\Users\mendi\source\repos\gaps\gaps.Infrastructure\bin\Debug\netcoreapp3.1\gaps.Infrastructure.runtimeconfig.json
+C:\Users\mendi\source\repos\gaps\gaps.Infrastructure\bin\Debug\netcoreapp3.1\gaps.Infrastructure.runtimeconfig.dev.json
+C:\Users\mendi\source\repos\gaps\gaps.Infrastructure\bin\Debug\netcoreapp3.1\gaps.Infrastructure.dll
+C:\Users\mendi\source\repos\gaps\gaps.Infrastructure\bin\Debug\netcoreapp3.1\gaps.Infrastructure.pdb
+C:\Users\mendi\source\repos\gaps\gaps.Infrastructure\bin\Debug\netcoreapp3.1\gaps.Domain.dll
+C:\Users\mendi\source\repos\gaps\gaps.Infrastructure\bin\Debug\netcoreapp3.1\gaps.Domain.pdb
+C:\Users\mendi\source\repos\gaps\gaps.Infrastructure\obj\Debug\netcoreapp3.1\gaps.Infrastructure.csproj.CopyComplete
+C:\Users\mendi\source\repos\gaps\gaps.Infrastructure\obj\Debug\netcoreapp3.1\gaps.Infrastructure.dll
+C:\Users\mendi\source\repos\gaps\gaps.Infrastructure\obj\Debug\netcoreapp3.1\gaps.Infrastructure.pdb
+C:\Users\mendi\source\repos\gaps\gaps.Infrastructure\obj\Debug\netcoreapp3.1\gaps.Infrastructure.genruntimeconfig.cache

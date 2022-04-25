@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\mendi\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\mendi\\.nuget\\packages"
+    ]
+  }
+}
