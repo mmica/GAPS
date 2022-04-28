@@ -1,8 +1,9 @@
-﻿using System;
+﻿using gaps.Domain.Entities.Interfaces;
+using System;
 
 namespace Domain.Entities.Auditing
 {
-    public abstract class FullAuditedAggregateRoot<TKey> : AuditedAggregateRoot<TKey>
+    public abstract class FullAuditedAggregateRoot<TKey> : AuditedAggregateRoot<TKey>, IEntity<TKey>
     {
 
         public virtual bool IsDeleted { get; set; }
@@ -15,5 +16,7 @@ namespace Domain.Entities.Auditing
         public FullAuditedAggregateRoot()
         {
         }
+
+        public abstract object[] GeyKeys();
     }
 }

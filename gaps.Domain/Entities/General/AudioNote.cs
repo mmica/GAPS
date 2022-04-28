@@ -1,7 +1,5 @@
 ﻿using Domain.Entities.Auditing;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Domain.Entities
 {
@@ -20,6 +18,10 @@ namespace Domain.Entities
         public AudioNote(Guid id) : base(id)
         {
         }
-       
+
+        public override object[] GeyKeys()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
