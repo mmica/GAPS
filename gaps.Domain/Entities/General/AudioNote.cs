@@ -8,7 +8,6 @@ namespace Domain.Entities
     public class AudioNote : FullAuditedAggregateRoot<Guid>
     {
         //No necesito definir un Id porque lo defino en las classes abstractas
-       // public Guid Id { get; set; }
         public Guid User { get; set; }
         public Guid Customer { get; set; }
         public Byte Recorder { get; set; }

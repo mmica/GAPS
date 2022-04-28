@@ -1,11 +1,6 @@
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace gaps.UI
 {
@@ -13,7 +8,17 @@ namespace gaps.UI
     {
         public static void Main(string[] args)
         {
-            CreateHostBuilder(args).Build().Run();
+            try
+            {
+                var host = CreateHostBuilder(args).Build();
+
+                host.Run();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
