@@ -1,14 +1,12 @@
 ﻿using gaps.Domain.Entities.Interfaces;
-using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
 namespace gaps.Infrastructure.Repositories.Base
 {
     /// <summary>
-    /// Primary Repository 
+    /// Primary Repository to execut command in db 
     /// </summary>
     /// <typeparam name="T"></typeparam>
     public interface IRepository<TEntity> where TEntity : class, IEntity

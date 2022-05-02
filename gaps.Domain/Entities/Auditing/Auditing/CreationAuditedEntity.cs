@@ -10,7 +10,7 @@ namespace Domain.Entities.Auditing
         protected CreationAuditedEntity()
         {
         }
-        public virtual DateTime CreationTime { get; protected set; }
+        public virtual DateTime CreationTime => DateTime.UtcNow;
         public virtual Guid? CreatorId { get; protected set; }
 
     }

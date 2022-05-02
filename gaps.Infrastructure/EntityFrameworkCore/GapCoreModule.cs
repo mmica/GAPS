@@ -1,10 +1,7 @@
-﻿using Domain.Entities;
+﻿using gaps.Domain.Entities.Interfaces;
 using gaps.Infrastructure.Repositories.General;
 using Infrastructure;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace gaps.Infrastructure.EntityFrameworkCore
 {
@@ -13,9 +10,8 @@ namespace gaps.Infrastructure.EntityFrameworkCore
     {
         public static void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<ApplicationDbContext>(opt =>
-            {
-            });
+            services.AddScoped<ICustomerRepository, CustomerRepository>();
+           
         }
     }
 }

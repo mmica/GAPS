@@ -1,4 +1,7 @@
-﻿using gaps.Infrastructure;
+﻿using gaps.Domain.Entities.Interfaces;
+using gaps.Infrastructure;
+using gaps.Infrastructure.Repositories.Base;
+using gaps.Infrastructure.Repositories.General;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -27,6 +30,8 @@ namespace Infrastructure
                 .AddIdentityServerJwt();
 
             services.AddAuthorization();
+            services.AddScoped<ICustomerRepository, CustomerRepository>();
+            //services.AddScoped(typeof(IRepository<>), typeof(IRepository<>));
 
             return services;
         }
