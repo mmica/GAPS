@@ -1,9 +1,0 @@
-C:\Users\mendi\source\repos\gaps\gaps.Domain\bin\Debug\netcoreapp3.1\gaps.Domain.deps.json
-C:\Users\mendi\source\repos\gaps\gaps.Domain\bin\Debug\netcoreapp3.1\gaps.Domain.dll
-C:\Users\mendi\source\repos\gaps\gaps.Domain\bin\Debug\netcoreapp3.1\gaps.Domain.pdb
-C:\Users\mendi\source\repos\gaps\gaps.Domain\obj\Debug\netcoreapp3.1\gaps.Domain.AssemblyInfoInputs.cache
-C:\Users\mendi\source\repos\gaps\gaps.Domain\obj\Debug\netcoreapp3.1\gaps.Domain.AssemblyInfo.cs
-C:\Users\mendi\source\repos\gaps\gaps.Domain\obj\Debug\netcoreapp3.1\gaps.Domain.csproj.CoreCompileInputs.cache
-C:\Users\mendi\source\repos\gaps\gaps.Domain\obj\Debug\netcoreapp3.1\gaps.Domain.dll
-C:\Users\mendi\source\repos\gaps\gaps.Domain\obj\Debug\netcoreapp3.1\gaps.Domain.pdb
-C:\Users\mendi\source\repos\gaps\gaps.Domain\obj\Debug\netcoreapp3.1\gaps.Domain.csprojAssemblyReference.cache
