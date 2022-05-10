@@ -4,16 +4,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3067FA79-B899-484E-877A-C2F1CC8B920E}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{35312C40-6174-4239-B526-805E2832C364}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gaps.Domain", "gaps.Domain\gaps.Domain.csproj", "{DC0B9B61-684E-42FB-BC8D-99D905543D9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gaps.Domain", "gaps.Domain\gaps.Domain.csproj", "{DC0B9B61-684E-42FB-BC8D-99D905543D9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gaps.Infrastructure", "gaps.Infrastructure\gaps.Infrastructure.csproj", "{F5650DEC-ADFB-4072-887A-919999814C75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gaps.Infrastructure", "gaps.Infrastructure\gaps.Infrastructure.csproj", "{F5650DEC-ADFB-4072-887A-919999814C75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gaps.Application", "gaps.Application\gaps.Application.csproj", "{712487D2-E6F6-4499-B83A-535907629523}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gaps.Application", "gaps.Application\gaps.Application.csproj", "{712487D2-E6F6-4499-B83A-535907629523}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gaps.UI", "gaps.UI\gaps.UI.csproj", "{F6904CE1-4359-480E-B5B7-2DD08736F39D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gaps.UI", "gaps.UI\gaps.UI.csproj", "{F6904CE1-4359-480E-B5B7-2DD08736F39D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
