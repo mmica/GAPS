@@ -9,9 +9,11 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.1" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\gaps.Domain\gaps.Domain.csproj" />
     <ProjectReference Include="..\gaps.Infrastructure\gaps.Infrastructure.csproj" />
   </ItemGroup>
 

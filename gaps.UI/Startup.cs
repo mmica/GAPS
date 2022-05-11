@@ -29,6 +29,7 @@ namespace gaps.UI
         {
             services.AddControllers();
             services.AddInfrastructure(Configuration);
+            services.ConfigureSwaggerServices();
             
         }
 
@@ -41,6 +42,10 @@ namespace gaps.UI
             }
 
             app.UseHttpsRedirection();
+            app.UseSwagger();
+            app.UseSwaggerUI(c => {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "GAPS API");
+            });
 
             app.UseRouting();
 
